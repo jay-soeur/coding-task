@@ -21,7 +21,7 @@ app.ts
         console.log("Demo Express server listening on port %d in %s mode", 3000, app.settings.env);
  });
 
-* There is not unit testing
+* There is no unit testing
 -------------
 
 # etaskr Coding Task Guidelines
