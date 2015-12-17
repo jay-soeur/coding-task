@@ -1,25 +1,33 @@
 ## What you will need:
 nodejs v5.0.0
+
 npm v3.3.6
+
 grunt v0.4.5
 
 ## Build:
+```
 npm install  (I feel that is not that realiable and needed to do it twice in some cases).
+
 grunt
-
+```
 ## Running the app:
+````
 npm start
-
+````
 paste this into a browser:
-http://<domain>:3000
-
+````
+http://{domain}:3000
+````
 
 you can change the port to whatever you want in:
+````
 app.ts
 
  app.listen(3000, () => {
         console.log("Demo Express server listening on port %d in %s mode", 3000, app.settings.env);
  });
+````
 
 * There is no unit testing
 -------------
